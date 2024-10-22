@@ -1,13 +1,13 @@
-const add = function() {
-	
+const add = function(a,b){
+  return a + b;
+}
+
+const subtract = function(a, b) {
+  return a - b;
 };
 
-const subtract = function() {
-	
-};
-
-const sum = function() {
-	
+const sum = function(a,b) {
+	return a + b;
 };
 
 const multiply = function() {
