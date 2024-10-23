@@ -11,15 +11,9 @@ const sum = function(arr) {
   return summed;
 };
 
-const multiply = function(...args) {
-  for( let i = 0; i < args.length; i++){
-    if(i == 0){
-      let product = args[i];
-    } else {
-      product *= args[i];
-    }
-  }
-  return product;
+const multiply = function(arr) {
+  return arr.reduce((prod, curr) => prod * curr, 1);
+
 };
 
 const power = function(a, b) {
